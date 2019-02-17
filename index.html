@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -61,7 +62,7 @@
     <div class="time-sheet-btn">
         <a href="#" class="btn-link" title="Submit Time Sheet">
             <button class="custom-btn-timesheet ">
-                <img src="Assets/images/submit-button/layer-4.png" alt="submit_timesheet" />
+                <img src="Assets/images/submit-button/layer-4.png" class="img-submit" alt="submit_timesheet" />
                 Submit TimeSheet
             </button>
         </a>
@@ -69,85 +70,87 @@
     <!--Time Sheet Button End-->
     <!------------------------------->
     <!--Main  Section Start-->
-    <main class="container">
+    <main class="container-outer">
         <!--Project Section Start-->
-        <section class="project-item-row">
+        <section class="container-inner-proj">
             <!--Project Time Column Start-->
-            <div class="project-list-col1">
-                <div class="project-clock">
-                    <div class="project-desc-clock">
-                        <img src="Assets/images/hours/group-5.png" class="img-clock" alt="clock" />
-                        <span class="clock-proj">
-                            04
-                        </span>
-                        <span class="proj">
-                            Projects
-                        </span>
-                    </div>
-                </div>
-                <!--Divider Line Start-->
-                <div class="hr-line"></div>
-                <!--Divider Line End-->
-                <!--Champions Div Start-->
-                <div class="project-champions">
-                    <div class="project-desc-champions">
-                        <img src="Assets/images/clock/layer-5.png" class="img-champ" alt="champ" />
-                        <span class="hrs-proj">
-                            Champions
-                        </span>
-                        <div class="cham-progress">
-                            <span class="desc-champ">80 points to Legend</span>
+            <article class="projects-item-row">
+                <div class="project-list-col1">
+                    <div class="project-clock">
+                        <div class="project-desc-clock">
+                            <img src="Assets/images/hours/group-5.png" class="img-clock" alt="clock" />
+                            <span class="clock-proj">
+                                04
+                            </span>
+                            <span class="proj">
+                                Projects
+                            </span>
                         </div>
                     </div>
+                    <!--Divider Line Start-->
+                    <div class="hr-line"></div>
+                    <!--Divider Line End-->
+                    <!--Champions Div Start-->
+                    <div class="project-champions">
+                        <div class="project-desc-champions">
+                            <img src="Assets/images/clock/layer-5.png" class="img-champ" alt="champ" />
+                            <span class="hrs-proj">
+                                Champions
+                            </span>
+                            <div class="cham-progress">
+                                <span class="desc-champ">80 points to Legend</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Champions Div End-->
                 </div>
-                <!--Champions Div End-->
-            </div>
-            <!--Project Time Column End-->
-            <!---------------------------->
-            <!--Project Progress Column Start-->
-            <div class="project-list-col2">
-                <div class="project-head">
-                    <img src="Assets/images/hours/group-5.png" alt="clock" class="proj-clock" />
-                    <span class="proj-heading">
-                        Projects
-                    </span>
-                    <span class="proj-prog-desc">
-                        Work on from
-                    </span>
-                    <span class="proj-duration">
-                        11 Feb to 15 Feb 2019
-                    </span>
-                </div>
-                <div class="project-progress">
-                    <span class="prog-bright">
-
-                    </span>
-                    <span class="prog-c-en">
-
-                    </span>
-                    <span class="prog-bajaj">
-
-                    </span>
-                    <span class="prog-internal">
-
-                    </span>
-                    <div class="proj-list">
-                        <span class="proj-bright">
-
+                <!--Project Time Column End-->
+                <!---------------------------->
+                <!--Project Progress Column Start-->
+                <div class="project-list-col2">
+                    <div class="project-head">
+                        <img src="Assets/images/hours/group-5.png" alt="clock" class="proj-clock" />
+                        <span class="proj-heading">
+                            Projects
                         </span>
-                        <span class="proj-c-en">
-
+                        <span class="proj-prog-desc">
+                            Work on from
                         </span>
-                        <span class="proj-bajaj">
-
-                        </span>
-                        <span class="proj-internal">
-
+                        <span class="proj-duration">
+                            11 Feb to 15 Feb 2019
                         </span>
                     </div>
-                </div>
+                    <div class="project-progress">
+                        <span class="prog-bright">
 
-            </div>
+                        </span>
+                        <span class="prog-c-en">
+
+                        </span>
+                        <span class="prog-bajaj">
+
+                        </span>
+                        <span class="prog-internal">
+
+                        </span>
+                        <div class="proj-list">
+                            <span class="proj-bright">
+
+                            </span>
+                            <span class="proj-c-en">
+
+                            </span>
+                            <span class="proj-bajaj">
+
+                            </span>
+                            <span class="proj-internal">
+
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </article>
             <!--Project Progress Column Start-->
         </section>
         <!--Project Section End-->
@@ -191,7 +194,7 @@
                     </div>
                 </div>
             </div>
-            <div class="timesheet-row">
+            <article class="timesheet-row">
                 <div class="timesheet-list">
                     | Bajaj Finance
                 </div>
@@ -207,8 +210,8 @@
                         04:00pm-07:00pm
                     </time>
                 </div>
-            </div>
-            <div class="timesheet-row">
+            </article>
+            <article class="timesheet-row">
                 <div class="timesheet-list">
                     | Bright House Finance
                 </div>
@@ -224,8 +227,8 @@
                         04:00pm-07:00pm
                     </time>
                 </div>
-            </div>
-            <div class="timesheet-row">
+            </article>
+            <article class="timesheet-row">
                 <div class="timesheet-list">
                     | Internal Finance
                 </div>
@@ -241,7 +244,7 @@
                         04:00pm-07:00pm
                     </time>
                 </div>
-            </div>
+            </article>
             <div class="timesheet-head">
                 Yesterday's Timesheet(3)
                 <time class="time-date-head">
@@ -251,7 +254,7 @@
                     Feb,2009
                 </time>
             </div>
-            <div class="timesheet-row">
+            <article class="timesheet-row">
                 <div class="timesheet-list">
                     | Internal Finance
                 </div>
@@ -267,7 +270,7 @@
                         04:00pm-07:00pm
                     </time>
                 </div>
-            </div>
+            </article>
         </section>
         <!--TimeSheet Section End-->
     </main>
@@ -276,78 +279,80 @@
         <div class="my-notify">
             My Notification
         </div>
-        <div class="my-notify-row">
-            <input type="checkbox" id="first" class="checkbox-notification" />
-            <label for="first">
-                Submit Time Sheet
-            </label>
-            <div class="to-name">
-                To:Ankur Mittal
+        <article class="my-notify-desc">
+            <div class="my-notify-row">
+                <input type="checkbox" id="first" class="checkbox-notification" />
+                <label for="first">
+                    Submit Time Sheet
+                </label>
+                <div class="to-name">
+                    To:Ankur Mittal
+                </div>
+                <mark class="mark-time">
+                    Due Today
+                </mark>
             </div>
-            <mark class="mark-time">
-                Due Today
-            </mark>
-        </div>
-        <div class="my-notify-row">
-            <input type="checkbox" id="second" class="checkbox-notification" />
-            <label for="second">
-                Approve time Sheet
-            </label>
-            <div class="to-name">
-                Emp Name:Rohan Vora
+            <div class="my-notify-row">
+                <input type="checkbox" id="second" class="checkbox-notification" />
+                <label for="second">
+                    Approve time Sheet
+                </label>
+                <div class="to-name">
+                    Emp Name:Rohan Vora
+                </div>
+                <mark class="mark">
+                    Due in 2 Days
+                </mark>
             </div>
-            <mark class="mark">
-                Due in 2 Days
-            </mark>
-        </div>
 
-        <div class="my-notify-row">
-            <input type="checkbox" id="third" class="checkbox-notification" />
-            <label for="third">
-                Approve time Sheet
-            </label>
-            <div class="to-name">
-                Emp Name:Ammar Naseem
+            <div class="my-notify-row">
+                <input type="checkbox" id="third" class="checkbox-notification" />
+                <label for="third">
+                    Approve time Sheet
+                </label>
+                <div class="to-name">
+                    Emp Name:Ammar Naseem
+                </div>
+                <mark class="mark">
+                    Due in 2 Days
+                </mark>
             </div>
-            <mark class="mark">
-                Due in 2 Days
-            </mark>
-        </div>
-        <div class="my-notify-row">
-            <input type="checkbox" id="fourth" class="checkbox-notification" />
-            <label for="fourth">
-                Approve time Sheet
-            </label>
-            <div class="to-name">
-                Emp Name:Ammar Naseem
+            <div class="my-notify-row">
+                <input type="checkbox" id="fourth" class="checkbox-notification" />
+                <label for="fourth">
+                    Approve time Sheet
+                </label>
+                <div class="to-name">
+                    Emp Name:Ammar Naseem
+                </div>
+                <mark class="mark">
+                    Due in 2 Days
+                </mark>
             </div>
-            <mark class="mark">
-                Due in 2 Days
-            </mark>
-        </div>
-        <div class="my-notify-row">
-            <input type="checkbox" id="fifth" class="checkbox-notification" checked />
-            <label for="fifth">
-                Approve time Sheet
-            </label>
-            <div class="to-name">
-                Emp Name:Pranjal
+            <div class="my-notify-row">
+                <input type="checkbox" id="fifth" class="checkbox-notification" checked />
+                <label for="fifth">
+                    Approve time Sheet
+                </label>
+                <div class="to-name">
+                    Emp Name:Pranjal
+                </div>
+                <mark class="mark">
+                    Done
+                </mark>
             </div>
-            <mark class="mark">
-                Done
-            </mark>
-        </div>
 
-        <div class="message">
-            <div class="message-head">
-                Congratulation
+            <div class="message">
+                <div class="message-head">
+                    Congratulation
+                </div>
+                <div class="message-desc">
+                    <img class="message-left" src="" alt="msg-left" />
+                    You have completed 9 Task last week
+                    <img src="" class="message-right" alt="msg-right" />
+                </div>
             </div>
-            <div class="message-desc">
-                <img class="message-left" src="" alt="msg-left" />
-                You have completed 9 Task last week
-                <img src="" class="message-right" alt="msg-right" />
-            </div>
-        </div>
+        </article>
     </aside>
     <!--Aside End-->
     <script src="js/"></script>
