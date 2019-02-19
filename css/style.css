@@ -1,0 +1,99 @@
+@font-face {
+    src:url("/font/Poppins/Poppins-Medium.ttf");
+    font-family: "Poppins","sans-serif";
+}
+.body-root{
+    font-family: "Poppins","sans-serif";
+    background-color: #ffffff;
+}
+.top-nav-list{
+    list-style: none;
+}
+.top-nav-list .top-nav-item{
+    display: inline-block;
+}
+.top-nav-list .top-nav-item .nav-link{
+    color:black;
+    text-decoration: none;
+}
+.header-dashboard{
+    background-color:#000;
+}
+.header-dashboard .heading-dashboard{
+    color:#fff;
+}
+.time-sheet-btn .custom-btn-timesheet{
+    background-color:#00aacb;
+}
+.project-desc-clock .clock-proj{
+    font-weight: bold;
+    color:#30363b;
+}
+.hr-line{
+    color:#e9edf0;
+    height: 2px;
+    width:20px;
+}
+.project-desc-champions .hrs-proj{
+    font-size:30px;
+}
+.cham-progress .desc-champ{
+    width:100px;
+    height: 3px;
+    background:linear-gradient(272deg, #24cced 1%, #1f7c8e);
+    display: inline-block;
+}
+.project-head .proj-heading{
+    font-size: 30px;
+}
+.proj-duration{
+    color:#00aacb;
+}
+.project-progress .prog-bright{
+    display: inline-block;
+    width:100px;
+    height:5px;
+    background-color:#9a52b6;
+}
+.project-progress .prog-c-en{
+    display: inline-block;
+    width:30px;
+    height:5px;
+    background-color:#2c97df;
+}
+
+.project-progress .prog-bajaj{
+    display: inline-block;
+    width:50px;
+    height:5px;
+    background-color:#f59900
+}
+.project-progress .prog-internal{
+display:inline-block;
+height: 5px;
+width:70px;
+background-color:#34b86f;
+}
+.search-form{
+    background-color:#2c97df;
+    color:#fff;
+}
+.add-task-btn{
+    text-decoration: none;
+}
+.add-task-btn .add-task{
+    color:#2c97df;
+
+}
+.mark{
+    background-color: #b7c0cf;
+}
+.mark-time{
+    background-color:red;
+}
+.mark-done{
+    background-color: #34b86f;
+}
+label[for="fifth"], .to-name-done{
+    text-decoration: line-through;
+}
