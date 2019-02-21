@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" />
 
 </head>
@@ -61,17 +62,17 @@
                     and various tools.
                 </p>
             </article>
-            <hr />
-            <iframe src="https://www.youtube.com/embed/GBv845QOgvM?autoplay=1&amp;loop=1" allow="accelerometer; &amp;loop=1; encrypted-media; gyroscope; picture-in-picture"
+            <div class="hr-line"></div>
+            <iframe class="iframe" src="https://www.youtube.com/embed/GBv845QOgvM?autoplay=1&amp;loop=1" allow="accelerometer; &amp;loop=1; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen="true"></iframe>
         </section>
         <!--section About End-->
         <!---------------------->
         <!--section Skills Start-->
         <section class="sec-skills">
-            <article class="sec-skills-inner">
-                <h2 class="heading-skills">Skills</h2>
-            </article>
+            <h2 class="heading-skills">
+                Skills
+            </h2>
             <article class="skills-desc">
                 <div class="col-1">
                     <div class="head-html">HTML</div>
@@ -187,16 +188,12 @@
                         </ul>
                     </div>
                     <div class="work-col-2">
-                        <marquee behaviour="slide" scrollamount="18" onmouseover="stop()" onmouseout="start()" width="100%">
-                            <img src="Assets/images/screenshot-clanstech.com-2019.01.26-15-21-12.png" alt="clans_work"
-                                height="200">
-                            <img src="Assets/images/screenshot-demo5.clanstech.com-2019.01.26-14-58-34.png" alt="clans_work"
-                                height="200">
-                            <img src="Assets/images/screenshot-parallax.clanstech.com-2019.01.25-22-10-59.png" alt="clans_work"
-                                height="200">
-                            <img src="Assets/images/screenshot-jack.clanstech.com-2019.01.26-15-24-18.png" alt="clans_work"
-                                height="200">
-                        </marquee>
+                        <div class="work-col-2-inner">
+                            <img class="work-img" src="Assets/images/screenshot-clanstech.com-2019.01.26-15-21-12.png" alt="clans_work" />
+                            <img class="work-img" src="Assets/images/screenshot-demo5.clanstech.com-2019.01.26-14-58-34.png" alt="clans_work" />
+                            <img class="work-img" src="Assets/images/screenshot-parallax.clanstech.com-2019.01.25-22-10-59.png" alt="clans_work" />
+                            <img class="work-img" src="Assets/images/screenshot-jack.clanstech.com-2019.01.26-15-24-18.png" alt="clans_work" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -206,16 +203,16 @@
         <!--Footer Start-->
         <footer class="footer">
             <h3 class="text-center" style="color:#fff;">Contact Me</h3>
-        <div class="footer-head">
-            <div class="footer-col-1">
+            <div class="footer-head">
+                <div class="footer-col-1">
                     <i class="fab fa-facebook-f fa-3x"></i>
                     <div class="contact-info">
                         <a href="#" class="contact-link">
                             Facebook
                         </a>
                     </div>
-            </div>
-            <div class="footer-col-1">
+                </div>
+                <div class="footer-col-1">
                     <i class="fab fa-linkedin-in fa-3x"></i>
                     <div class="contact-info">
                         <a href="#" class="contact-link">
@@ -223,17 +220,17 @@
                         </a>
                     </div>
 
-            </div>
-            <div class="footer-col-1">
+                </div>
+                <div class="footer-col-1">
                     <i class="fab fa-slack fa-3x"></i>
                     <div class="contact-info">
-                       <a href="#" class="contact-link">
-                           Slack
+                        <a href="#" class="contact-link">
+                            Slack
                         </a>
-                        </div>
+                    </div>
 
+                </div>
             </div>
-        </div>
 
         </footer>
     </main>
